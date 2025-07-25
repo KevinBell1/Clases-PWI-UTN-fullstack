@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; margin-top: 100px; ">
+        <h1>Formulario de contacto</h1>
+    <form>
+        <label for="name" >Nombre: </label>
+        <input type="text" id="name" placeholder="Nombre"> <br>
+
+        <label for="surname">Apellidos </label>
+        <input type="text" id="surname" placeholder="Apellidos"> <br>
+
+        <label for="edad">Edad</label>
+        <input type="number" id="edad" placeholder="Edad"> <br>
+
+        <label for="email">Email </label>
+        <input type="email" id="email" placeholder="Email"><br>
+
+        <label for="password">Password</label> 
+        <input type="password" id="password" placeholder="Password"> <br>
+
+        <h2>Genero</h2>
+        <label for="genero"></label>
+        <input type="radio" name="genero" id="male">Hombre</label>
+        <input type="radio" name="genero" id="female">Mujer</label>
+        <input type="radio" name="genero" id="other">Otro</label> <br>
+
+        <h2>Elegir su dispositivo:</h2>
+        <label for="dispositivo"></label>
+        <input type="radio" name="dispositivo" id="Mc">MacBook</label>
+        <input type="radio" name="dispositivo" id="Ipad">Ipad</label>
+        <input type="radio" name="dispositivo" id="Iphone">Iphone</label> <br><br>
+
+        <label for="user-in">Cómo nos conociste?</label>
+        <select name="user-in" id="">
+            <option value="SocNet">Red Social</option>
+            <option value="Search">Buscador</option>
+            <option value="Friends">Amigos</option>
+            <option value="Otro">Otro</option>
+        </select> <br><br>
+
+        <label for="sub">Desea subscribirse a informacion de la pagina</label>
+        <input type="checkbox" name="sub" id="sub"> <br><br>
+
+        <input type="submit" value="Contactar">
+    </form> 
+    </div>
+</body>
+</html>

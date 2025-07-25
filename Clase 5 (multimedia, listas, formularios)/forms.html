@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>form</h1>
+    <form>
+    <div>
+                <label for="name">Pone tu nombre nene</label>
+        <input type="text" placeholder="name" id="name" name="name"> <br>
+        <label for="time">Cuando?</label>
+        <input type="datetime-local" name="time"> <br>
+        <label for="password">Ingrese su contraseña</label>
+        <input type="password" id="password" name="password" maxlength="8" required> <br>
+    </div>
+    <div style="width: 100%;">
+        <label for="pais">Selecciona un pais</label>
+        <select name="pais" id="pais">
+            <option value="False" selected>No seleccionado</option>
+            <option value="ARG">Argentina</option><!-- VALUE ES LO QUE LLEGARA AL BACKEND -->
+            <option value="COL">Colombia</option>
+            <option value="BRA">Brasil</option>
+        </select><br>
+        <label for="pais-1">Seleccione pais</label>
+        <span>Argentina</span><input type="radio" name="pais-1">
+        <span>Colombia</span><input type="radio" name="pais-1"></span><br>
+        <label for="message">Desarrolle</label>
+        <textarea name="message" id=""></textarea>
+    </div>
+        <button type="submit">Enviar</button><br>
+        <input type="submit" value="Confirmar"> 
+    </form>
+</body>
+</html>
