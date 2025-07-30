@@ -1,0 +1,75 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.card-section{
+    width: 100%;
+    height: 100vh;
+    margin: 50px;
+    
+}
+.card{
+    width: 214px;
+    height: 266px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* colors part of card */
+.card .colors-card{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.colors-card .color:nth-child(1){
+    width: 100%;
+    height: 40%;
+    background-color: #3E3F29;
+}
+.colors-card .color:nth-child(2){
+    width: 100%;
+    height: 27%;
+    background-color: #7D8D86;
+}
+.colors-card .color:nth-child(3){
+    width: 100%;
+    height: 19%;
+    background-color: #BCA88D;
+}
+.colors-card .color:nth-child(4){
+    width: 100%;
+    height: 14%;
+    background-color: #F1F0E4;
+}
+
+/* btns-card */
+.btns-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btns-card .btn-like{
+    height: 38px;
+    width: 73px;
+    margin: 10px;
+    padding: 0 15px;
+    border: 1px solid #ececec;
+    background-color: white;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.btns-card .timer{
+    color: rgb(141,141,141);
+    font-size: 12px;
+    font-family: Inter, sans-serif;
+}

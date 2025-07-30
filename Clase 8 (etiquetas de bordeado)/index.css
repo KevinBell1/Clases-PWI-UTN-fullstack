@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: yellow;
+}
+
+.box{
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px 0px,
+    0 0 10px 0 black    ;
+    margin: 20px 0 0 230px;
+}
+
+/* neuromorfism.io */
+.ml-caja{
+    height: 40px;
+    width: 588px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: none;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    padding: 10px 60px 10px 15px;
+    display: flex;
+}
